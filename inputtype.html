@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input type</title>
+</head>
+<body>
+    <form>
+        <label for="username">UserName</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="pwd">Password</label>
+        <input type="text" id="pwd" name="pwd"><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+    <br>
+    <h3>Date Field</h3>
+    <form>
+        <label for="birthday">birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+        <input type="submit">
+    </form>
+    <br>
+    <form>
+        <label>Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor">
+        <input type="submit">
+    </form>
+    <br>
+    <form>
+        <label for="myfile">select a file:</label>
+        <input type="file" id="myfile" name="myfile">
+        <input type="submit">
+    </form>
+    <br>
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname">
+        <input type="hidden" id="sustid" name="custid" value="234">
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <form>
+        <label for="quantiy">Quantity between 1-10</label>
+        <input type="number" id="quantiy" name="quantity" min="1" max="10">
+        <input type="submit">
+    </form>
+    <br>
+    <form>
+        <label for="phone">Enter a phone number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="0-9"
+        pattern="[0-9]{4}[0-9]{2}[0-9]{4}" required><br>
+        <input type="submit">
+    </form>
+    <br>
+    <form>
+        <label for="homepage">add your hompage</label>
+        <input type="url" id="homepage" name="homepage">
+        <input type="submit">
+    </form>
+</body>
+</html>
